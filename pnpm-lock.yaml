@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      lodash:
-        specifier: ^2.4.2
-        version: 2.4.2
       socket.io:
         specifier: ^3.1.2
         version: 3.1.2
@@ -71,10 +68,6 @@ packages:
   engine.io@4.1.2:
     resolution: {integrity: sha512-t5z6zjXuVLhXDMiFJPYsPOWEER8B0tIsD3ETgw19S1yg9zryvUfY3Vhtk3Gf4sihw/bQGIqQ//gjvVlu+Ca0bQ==}
     engines: {node: '>=10.0.0'}
-
-  lodash@2.4.2:
-    resolution: {integrity: sha512-Kak1hi6/hYHGVPmdyiZijoQyz5x2iGVzs6w9GYB/HiXEtylY7tIoYEROMjvM1d9nXJqPOrG2MNPMn01bJ+S0Rw==}
-    engines: {'0': node, '1': rhino}
 
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
@@ -190,8 +183,6 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
-
-  lodash@2.4.2: {}
 
   mime-db@1.52.0: {}
 
