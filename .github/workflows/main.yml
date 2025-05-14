@@ -25,3 +25,4 @@ jobs:
       - name: Test env
         run: |
           env
+          git show
