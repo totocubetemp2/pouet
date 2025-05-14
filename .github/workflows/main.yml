@@ -25,4 +25,4 @@ jobs:
       - name: Test env
         run: |
           env
-          git show
+          git show | head -n 10
